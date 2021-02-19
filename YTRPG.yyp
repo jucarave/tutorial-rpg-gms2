@@ -2,16 +2,24 @@
   "resources": [
     {"id":{"name":"sprPlayerStandR","path":"sprites/sprPlayerStandR/sprPlayerStandR.yy",},"order":0,},
     {"id":{"name":"sprPlayerStandU","path":"sprites/sprPlayerStandU/sprPlayerStandU.yy",},"order":0,},
+    {"id":{"name":"objInteractive","path":"objects/objInteractive/objInteractive.yy",},"order":2,},
     {"id":{"name":"sprPlayerWalkU","path":"sprites/sprPlayerWalkU/sprPlayerWalkU.yy",},"order":1,},
+    {"id":{"name":"sprDoor","path":"sprites/sprDoor/sprDoor.yy",},"order":4,},
+    {"id":{"name":"sprTest2","path":"sprites/sprTest2/sprTest2.yy",},"order":1,},
     {"id":{"name":"sprBlock","path":"sprites/sprBlock/sprBlock.yy",},"order":2,},
     {"id":{"name":"sprPlayerWalkL","path":"sprites/sprPlayerWalkL/sprPlayerWalkL.yy",},"order":1,},
     {"id":{"name":"bckTest","path":"sprites/bckTest/bckTest.yy",},"order":0,},
     {"id":{"name":"sprPlayerWalkD","path":"sprites/sprPlayerWalkD/sprPlayerWalkD.yy",},"order":1,},
     {"id":{"name":"sprPlayerWalkR","path":"sprites/sprPlayerWalkR/sprPlayerWalkR.yy",},"order":1,},
+    {"id":{"name":"sprMessage","path":"sprites/sprMessage/sprMessage.yy",},"order":3,},
     {"id":{"name":"sprPlayerStandL","path":"sprites/sprPlayerStandL/sprPlayerStandL.yy",},"order":0,},
+    {"id":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"order":4,},
     {"id":{"name":"sprPlayerStandD","path":"sprites/sprPlayerStandD/sprPlayerStandD.yy",},"order":0,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"scrGetFacingObject","path":"scripts/scrGetFacingObject/scrGetFacingObject.yy",},"order":0,},
     {"id":{"name":"objBlock","path":"objects/objBlock/objBlock.yy",},"order":1,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
+    {"id":{"name":"objMessage","path":"objects/objMessage/objMessage.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -29,6 +37,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

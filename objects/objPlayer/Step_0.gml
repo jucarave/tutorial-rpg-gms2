@@ -1,3 +1,4 @@
+#region Movimiento
 if (speed != 0) {
 	distance -= spd;
 	
@@ -36,5 +37,16 @@ if (speed == 0) {
 			action = "Walk";
 		}
 		face = "U";
+	}
+}
+#endregion
+
+if (keyboard_check_pressed(ord("E"))) {
+	var interactive = scrGetFacingObject();
+	
+	if (interactive) {
+		with (interactive) {
+			event_user(0);
+		}
 	}
 }
