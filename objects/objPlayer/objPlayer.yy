@@ -3,7 +3,7 @@
     "name": "sprPlayerStandD",
     "path": "sprites/sprPlayerStandD/sprPlayerStandD.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

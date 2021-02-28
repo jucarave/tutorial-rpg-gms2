@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Up",
-    "path": "folders/Sprites/Character/Up.yy",
+    "path": "folders/Sprites/Characters/Player/Up.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprPlayerWalkU",

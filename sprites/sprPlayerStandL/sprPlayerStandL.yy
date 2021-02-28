@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Left",
-    "path": "folders/Sprites/Character/Left.yy",
+    "path": "folders/Sprites/Characters/Player/Left.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprPlayerStandL",

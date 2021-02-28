@@ -1,46 +1,20 @@
 #region Movimiento
-if (speed != 0) {
-	distance -= spd;
-	
-	if (distance <= 0) {
-		speed = 0;
-		action = "Stand";
-	}
-}
+scrUpdateMovement();
 
 if (speed == 0) {
 	if (keyboard_check(ord("D"))) {
-		if (place_free(x+16, y)) {
-			hspeed = spd;
-			distance = 16;
-			action = "Walk";
-		}
-		face = "R";
+		scrMoveTo(1, 0);
 	} else if (keyboard_check(ord("A"))) {
-		if (place_free(x-16, y)) {
-			hspeed = -spd;
-			distance = 16;
-			action = "Walk";
-		}
-		face = "L";
+		scrMoveTo(-1, 0);
 	} else if (keyboard_check(ord("S"))) {
-		if (place_free(x, y+16)) {
-			vspeed = spd;
-			distance = 16;
-			action = "Walk";
-		}
-		face = "D";
+		scrMoveTo(0, 1);
 	} else if (keyboard_check(ord("W"))) {
-		if (place_free(x, y-16)) {
-			vspeed = -spd;
-			distance = 16;
-			action = "Walk";
-		}
-		face = "U";
+		scrMoveTo(0, -1);
 	}
 }
 #endregion
 
+#region Interactuando
 if (keyboard_check_pressed(ord("E"))) {
 	var interactive = scrGetFacingObject();
 	
@@ -50,3 +24,4 @@ if (keyboard_check_pressed(ord("E"))) {
 		}
 	}
 }
+#endregion

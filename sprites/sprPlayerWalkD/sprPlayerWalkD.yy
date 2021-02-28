@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Down",
-    "path": "folders/Sprites/Character/Down.yy",
+    "path": "folders/Sprites/Characters/Player/Down.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprPlayerWalkD",
