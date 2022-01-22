@@ -1,3 +1,5 @@
+if (pages == noone) { exit; }
+
 var _x = 37;
 var _y = 124;
 

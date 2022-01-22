@@ -1,6 +1,7 @@
 scrCreateCharacter("NPC");
 
 alarm[1] = room_speed * 3;
+state = STATE_IDLE;
 
 path = [
 	[0, -1],
