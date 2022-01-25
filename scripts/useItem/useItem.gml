@@ -5,7 +5,11 @@ function useItem(itemId){
 		var itemDef = global.ITEMS[itemId];
 		var action = itemDef[ITEM_DEF_ACTION];
 
-		action();
+		if (action != noone) {
+			if (!action()) {
+				exit;
+			}
+		}
 		
 		item[@ INVENTORY_QUANTITY] -= 1;
 		
