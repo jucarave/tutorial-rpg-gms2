@@ -6,4 +6,5 @@ if (lock != noone) {
 	exit;
 }
 
-room_goto(Room2);
+objSystem.playerStartPosition = targetPlayerPosition;
+room_goto(targetRoom);

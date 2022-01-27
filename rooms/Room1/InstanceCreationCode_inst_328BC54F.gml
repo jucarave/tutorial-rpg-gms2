@@ -1,1 +1,3 @@
-lock = ITEM_ID_KEY;
+lock = noone;
+targetRoom = Room2;
+targetPlayerPosition = [144, 176, "U"];

@@ -4,3 +4,5 @@ global.TEXTBOX_FONT = font_add_sprite_ext(sprTextboxFont, "ABCDEFGHIJKLMNÑOPQRS
 
 scrInitItems();
 inventory = ds_list_create();
+
+playerStartPosition = noone;
