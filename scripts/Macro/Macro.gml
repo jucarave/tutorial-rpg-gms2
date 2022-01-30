@@ -1,6 +1,7 @@
 function Macro() {
 	#macro STATE_IDLE 0
 	#macro STATE_READING 1
+	#macro STATE_INVENTORY 2
 	
 	#macro ITEM_DEF_NAME 0
 	#macro ITEM_DEF_DESCRIPTION 1
