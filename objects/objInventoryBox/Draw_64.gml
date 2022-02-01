@@ -2,9 +2,15 @@ if (!active) { exit; }
 
 draw_self();
 
-var inventorySize = min(ds_list_size(objSystem.inventory), 8);
-for (var i=0;i<inventorySize;i++) {
-	var posy = i * 16;
+var inventorySize = ds_list_size(objSystem.inventory);
+var i1 = max(cursor - 3, 0);
+if (i1 + 8 >= inventorySize) { i1 = max(inventorySize - 8, 0); }
+
+var i2 = min(i1 + 8, inventorySize);
+
+var posy = 0;
+
+for (var i=i1;i<i2;i++) {
 	var item = objSystem.inventory[| i];
 	var itemDef = global.ITEMS[item[INVENTORY_ITEM]];
 	
@@ -16,4 +22,10 @@ for (var i=0;i<inventorySize;i++) {
 	draw_set_halign(fa_right);
 	draw_text(x + 99, y + 6 + posy, "x" + string(item[INVENTORY_QUANTITY]));
 	draw_set_halign(fa_left);
+	
+	if (i == cursor) {
+		draw_sprite(sprInventoryCursor, 0, x + 6, y + 10 + posy);
+	}
+	
+	posy += 16;
 }
