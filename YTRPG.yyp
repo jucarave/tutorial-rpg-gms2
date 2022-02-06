@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sprPlayerStandR","path":"sprites/sprPlayerStandR/sprPlayerStandR.yy",},"order":0,},
+    {"id":{"name":"scrCloseInventory","path":"scripts/scrCloseInventory/scrCloseInventory.yy",},"order":5,},
     {"id":{"name":"createItem","path":"scripts/createItem/createItem.yy",},"order":4,},
     {"id":{"name":"sprPlayerStandU","path":"sprites/sprPlayerStandU/sprPlayerStandU.yy",},"order":0,},
     {"id":{"name":"objInteractive","path":"objects/objInteractive/objInteractive.yy",},"order":2,},
@@ -9,6 +10,7 @@
     {"id":{"name":"scrPlayerCheckMenus","path":"scripts/scrPlayerCheckMenus/scrPlayerCheckMenus.yy",},"order":3,},
     {"id":{"name":"sprPlayerWalkU","path":"sprites/sprPlayerWalkU/sprPlayerWalkU.yy",},"order":1,},
     {"id":{"name":"sprDoor","path":"sprites/sprDoor/sprDoor.yy",},"order":4,},
+    {"id":{"name":"sprItemDetail","path":"sprites/sprItemDetail/sprItemDetail.yy",},"order":4,},
     {"id":{"name":"sprTest2","path":"sprites/sprTest2/sprTest2.yy",},"order":1,},
     {"id":{"name":"scrFinishCharacterReading","path":"scripts/scrFinishCharacterReading/scrFinishCharacterReading.yy",},"order":1,},
     {"id":{"name":"addItem","path":"scripts/addItem/addItem.yy",},"order":0,},
@@ -43,6 +45,7 @@
     {"id":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"order":4,},
     {"id":{"name":"sprNPCStandD","path":"sprites/sprNPCStandD/sprNPCStandD.yy",},"order":0,},
     {"id":{"name":"sprTextboxFont","path":"sprites/sprTextboxFont/sprTextboxFont.yy",},"order":1,},
+    {"id":{"name":"objItemDetail","path":"objects/objItemDetail/objItemDetail.yy",},"order":2,},
     {"id":{"name":"scrOpenTexbox","path":"scripts/scrOpenTexbox/scrOpenTexbox.yy",},"order":0,},
     {"id":{"name":"sprInventoryCursor","path":"sprites/sprInventoryCursor/sprInventoryCursor.yy",},"order":3,},
     {"id":{"name":"objSystem","path":"objects/objSystem/objSystem.yy",},"order":7,},
