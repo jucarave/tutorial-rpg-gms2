@@ -43,6 +43,7 @@
     {"id":{"name":"sprPlayerStandL","path":"sprites/sprPlayerStandL/sprPlayerStandL.yy",},"order":0,},
     {"id":{"name":"sprNPCWalkD","path":"sprites/sprNPCWalkD/sprNPCWalkD.yy",},"order":1,},
     {"id":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"order":4,},
+    {"id":{"name":"scrFindPath","path":"scripts/scrFindPath/scrFindPath.yy",},"order":2,},
     {"id":{"name":"sprNPCStandD","path":"sprites/sprNPCStandD/sprNPCStandD.yy",},"order":0,},
     {"id":{"name":"sprTextboxFont","path":"sprites/sprTextboxFont/sprTextboxFont.yy",},"order":1,},
     {"id":{"name":"objItemDetail","path":"objects/objItemDetail/objItemDetail.yy",},"order":2,},
@@ -130,7 +131,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.1.0.609",
+    "IDEVersion": "2022.1.1.610",
   },
   "resourceVersion": "1.4",
   "name": "YTRPG",

@@ -1,7 +1,8 @@
 scrCreateCharacter("NPC");
 
-alarm[1] = room_speed * 3;
+alarm[2] = room_speed * 3;
 state = STATE_IDLE;
+movementType = "followPlayer";
 
 path = [
 	[0, -1],

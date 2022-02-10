@@ -1,5 +1,7 @@
 switch (state) {
 	case STATE_IDLE:
-		scrUpdateMovement();
+		if (scrUpdateMovement() && movementType == "followPlayer") {
+			alarm[2] = 1;
+		}
 		break;
 }

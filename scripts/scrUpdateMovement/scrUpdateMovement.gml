@@ -8,6 +8,10 @@ function scrUpdateMovement(){
 			
 			x = floor((x + 1) / 16) * 16;
 			y = floor((y + 1) / 16) * 16;
+			
+			return true;
 		}
 	}
+	
+	return false;
 }
