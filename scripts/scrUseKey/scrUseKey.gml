@@ -8,6 +8,7 @@ function scrUseKey(){
 		if (door.lock == ITEM_ID_KEY) {
 			scrOpenTexbox("Has desbloqueado la puerta");
 			door.lock = noone;
+			global.FLAGS[door.flagId] = true;
 			return true;
 		} else if (door.lock != noone) {
 			scrOpenTexbox("La llave no encaja");

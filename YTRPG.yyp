@@ -51,6 +51,7 @@
     {"id":{"name":"sprInventoryCursor","path":"sprites/sprInventoryCursor/sprInventoryCursor.yy",},"order":3,},
     {"id":{"name":"objSystem","path":"objects/objSystem/objSystem.yy",},"order":7,},
     {"id":{"name":"sprNPCWalkU","path":"sprites/sprNPCWalkU/sprNPCWalkU.yy",},"order":1,},
+    {"id":{"name":"scrFlags","path":"scripts/scrFlags/scrFlags.yy",},"order":3,},
     {"id":{"name":"scrSplitTextIntoPages","path":"scripts/scrSplitTextIntoPages/scrSplitTextIntoPages.yy",},"order":0,},
     {"id":{"name":"sprNPCStandL","path":"sprites/sprNPCStandL/sprNPCStandL.yy",},"order":0,},
     {"id":{"name":"sprPlayerStandD","path":"sprites/sprPlayerStandD/sprPlayerStandD.yy",},"order":0,},
