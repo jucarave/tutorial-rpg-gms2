@@ -26,7 +26,7 @@ function scrSplitText(text, delimiter) {
 		words[array_length(words)] = word;
 		// El i1 se comvierte en i2 y buscamos un nuevo i2
 		i1 = i2;
-		i2 = string_pos_ext(delimiter, text, i1);
+		i2 = string_pos_ext(delimiter, text, i1 + 1);
 	}
 	
 	// Si nos sobró una palabra al final lo añadimos al array de palabras

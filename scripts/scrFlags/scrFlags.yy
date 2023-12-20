@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "scrFlags",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "System",
     "path": "folders/Scripts/System.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "scrFlags",
-  "tags": [],
-  "resourceType": "GMScript",
 }
